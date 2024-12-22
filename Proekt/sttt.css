@@ -1,12 +1,10 @@
 .fullscreen-bg {
     overflow: hidden;
-
     position: relative;
     height: 100%;
     width: 100%;
     padding-top:45%;
 }
- 
 .fullscreen-bg__video {
     position: absolute;
     top: 0;
@@ -24,7 +22,7 @@
 }
 .overlay h1 {
     text-align:center;
-    color:#fff;
+    color: #ffffff;
     font-size: 70px;
     margin-top:17%;
 }
@@ -32,15 +30,11 @@
     height: 100%;
     border-left: 2px solid #f40000;
   }
-
- 
-  
   .FF {
     border: 3px solid #ffffff;
     padding: 5px;
     border-collapse: collapse;
   }
-
   .active {
     color: red;
   }
@@ -48,7 +42,6 @@
     width: 70%;
     border-bottom: solid 1px #c4c4c4;
   }
-
   .accordion h3 {
     background: #e9e7e7 url(images/arrow-square.gif) no-repeat right -51px;
     padding: 7px 15px;
@@ -59,17 +52,12 @@
     cursor: pointer;
     font-family: 'Montserrat';
   }
-
   .accordion h3:hover {
-    
     background-color: #e3e2e2;
   }
-
   .accordion h3.active {
-    
     background-position: right 5px;
   }
-
   .accordion p {
     background: #f7f7f7;
     margin: 0;
